@@ -1,0 +1,126 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+$color-darkblue: #001d51;
+$color-blue-gray: #becce7;
+$color-lavender: #d9e1f1;
+$color-light-blue: #93B8D3;
+
+header{
+    background-color: $color-darkblue;
+
+    #logo{
+        margin-right: 40px;
+    }
+    .clr{
+        text-decoration: none;
+        color: white !important;
+    }
+    
+}
+
+main{
+    .bg-color{
+        background-color: $color-blue-gray;
+       // opacity: 0.5;
+    }
+    .fs-5{
+        color: $color-darkblue;
+    }
+    .primary-btn {
+        color: $color-darkblue !important;
+        border-color: $color-darkblue !important;
+        
+        &:hover {
+            color: $color-lavender !important;
+            border-color: $color-darkblue;
+            background-color: $color-darkblue;
+        }
+    }
+    .second-btn{
+        &:hover{
+            color: $color-darkblue !important;
+        }
+    }
+    .text-body-emphasis{
+        color: $color-darkblue !important;
+    }
+
+    .col{
+        box-shadow: #becce7;
+    }
+    .pb-2{
+        color: $color-darkblue !important;
+    }
+    
+    .pt-5{
+        padding-top: 235px !important;
+        
+        &:hover{
+            color: $color-darkblue !important;
+            cursor: pointer;
+        }
+        //color: $color-darkblue !important;
+    }
+
+    #container {
+        background-color: $color-lavender !important;
+
+        .pb-2 {
+             color: $color-darkblue !important;
+             border-bottom: 1px solid $color-darkblue !important;
+         }
+    
+        .icon-link {
+            color: $color-light-blue !important;
+            text-decoration: none !important;
+    
+            &:hover {
+               color: $color-darkblue !important;
+            }
+        }
+    
+       .bg-body-secondary {
+            background-color: transparent !important;
+        }
+        .col{
+            text-align: -webkit-center !important;
+        }
+        .me-3 {
+            margin-right: 5px !important;
+        }
+        .my-class{
+            display: inline-block;
+        }
+    }
+    
+}
+
+footer{
+    .background{
+        background-color: $color-darkblue;
+    }
+    .my-4{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .nav li{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .text-body-secondary{
+        color: white !important;
+    }
+    .pb-3{
+        padding-bottom: 3px !important;
+        margin-bottom: 3px !important;
+    }
+    #rightReserve{
+        margin-bottom: 0 !important;
+    }
+}
