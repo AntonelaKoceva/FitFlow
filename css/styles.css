@@ -12,8 +12,15 @@ header .clr {
 main .bg-color {
   background-color: #becce7;
 }
+main .display-5 {
+  font-size: 70px;
+}
 main .fs-5 {
   color: #001d51;
+  font-size: 21px !important;
+}
+main #head-margin {
+  margin-top: 20px !important;
 }
 main .primary-btn {
   color: #001d51 !important;
@@ -68,6 +75,48 @@ main #container .me-3 {
 }
 main #container .my-class {
   display: inline-block;
+}
+main .container .coach-title {
+  margin: 30px 0;
+}
+main .container .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container .coach-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+main .container .coach-text p {
+  text-align: center;
+}
+main .container .coach-text .coach-heading {
+  color: #001d51;
+}
+main .container .btn-secondary {
+  background-color: #d9e1f1;
+  color: #001d51;
+}
+main .container .btn-secondary:hover {
+  background-color: #001d51;
+  color: #d9e1f1;
+}
+main .container .card-header {
+  background-color: #001d51;
+  color: white;
+}
+main .container .btn-primary {
+  background-color: #d9e1f1;
+  border-color: #becce7;
+  color: #001d51;
+}
+main .container .btn-primary:hover {
+  background-color: #001d51;
+  border-color: #001d51;
+  color: #d9e1f1;
 }
 
 footer .background {
